@@ -185,7 +185,7 @@ section .title::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url("../images/garage/p1.jpg") no-repeat center;
+  background: url("../images/garage/p1.jpg") fixed;
   height: 40vh;
   color: #fff;
   min-height: 500px;
@@ -338,7 +338,8 @@ section .title::after {
   -webkit-transition: 1s;
   transition: 1s;
   padding: 20px;
-  width: 350px;
+  width: 400px;
+  height: 400px;
 }
 
 .gallery img:hover {

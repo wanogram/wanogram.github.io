@@ -156,7 +156,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("../images/kitchen/p1.jpg") no-repeat center;
+    background: url("../images/kitchen/p1.jpg") fixed;
     height: 40vh;
     color: #fff;
     min-height: 500px;
@@ -289,7 +289,9 @@ section .title::after{
 .gallery img {
     transition: 1s;
     padding: 20px;
-    width: 350px;
+    width: 400px;
+    height: 400px;
+
 }
 
 .gallery img:hover {

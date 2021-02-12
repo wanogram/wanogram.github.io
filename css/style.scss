@@ -153,12 +153,12 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("../images/banner.jpg") no-repeat center;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
     font-family: source sans pro, sans-serif;
 }
 .home .max-width{
