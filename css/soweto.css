@@ -185,7 +185,7 @@ section .title::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url("../images/soweto/P1.jpg") fixed;
+  background: url("../images/soweto/P1.jpg") no-repeat center;
   height: 40vh;
   color: #fff;
   min-height: 500px;
