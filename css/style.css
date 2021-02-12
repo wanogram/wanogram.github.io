@@ -189,9 +189,9 @@ section .title::after {
   height: 100vh;
   color: #fff;
   min-height: 500px;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: source sans pro, sans-serif;
 }
 
 .home .max-width {
@@ -270,7 +270,7 @@ section .title::after {
 }
 
 .about .about-content .right p {
-  text-align: justify center;
+  text-align: justify;
   font-size: 23px;
 }
 
@@ -839,10 +839,6 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
-  }
-  .home img {
-    -o-object-fit: fill;
-       object-fit: fill;
   }
 }
 /*# sourceMappingURL=style.css.map */
