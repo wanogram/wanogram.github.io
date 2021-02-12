@@ -252,6 +252,8 @@ section .title::after {
   width: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
 }
 
 .about .about-content .left img:hover {
@@ -278,7 +280,7 @@ section .title::after {
 }
 
 .about .about-content .right p {
-  text-align: justify;
+  text-align: justify center;
   font-size: 23px;
 }
 
@@ -318,6 +320,8 @@ section .title::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
 }
 
 /*gallery*/
@@ -335,8 +339,8 @@ section .title::after {
 }
 
 .gallery img {
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
   padding: 20px;
   width: 400px;
   height: 400px;
