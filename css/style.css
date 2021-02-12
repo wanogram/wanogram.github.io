@@ -270,8 +270,8 @@ section .title::after {
 }
 
 .about .about-content .right p {
-  text-align: justify;
-  font-size: 20px;
+  text-align: justify center;
+  font-size: 18px;
 }
 
 /* projects section styling */
