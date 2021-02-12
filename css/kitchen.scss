@@ -216,6 +216,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
+    transition: 1s linear;
 
     
 }
@@ -269,6 +270,7 @@ section .title::after{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 1s linear;
 }
 
 /*gallery*/
@@ -287,7 +289,7 @@ section .title::after{
 }
 
 .gallery img {
-    transition: 1s;
+    transition: 1s linear;
     padding: 20px;
     width: 400px;
     height: 400px;
