@@ -2,4 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/skcrafts/public_html
-        - /bin/cp -r /home/skcrafts/repositories/sikhangezilehub.io/ $DEPLOYPATH
+        - /bin/cp -r * $DEPLOYPATH
